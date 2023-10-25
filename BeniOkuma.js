@@ -1218,14 +1218,14 @@ var onGorulenOkumaSuresi = (kelimeSayisi / 200) * 60;
 var panelAcikKalmaSuresi =
 ((new Date().getTime()) - viewSurumNotlariDetayKayitPanel.panelAcilmaZamani.getValue()) / 1000;
 
-if (onGorulenOkumaSuresi > panelAcikKalmaSuresi) {
-showWarningMsg("Kelime sayısı :" + kelimeSayisi + ", Okuma Süresi:"
-+ panelAcikKalmaSuresi.toFixed(2) + "sn, Beklenen min. Süre : "
-+ onGorulenOkumaSuresi.toFixed(2) + "sn");
+//if (onGorulenOkumaSuresi > panelAcikKalmaSuresi) {
+//showWarningMsg("Kelime sayısı :" + kelimeSayisi + ", Okuma Süresi:"
+//+ panelAcikKalmaSuresi.toFixed(2) + "sn, Beklenen min. Süre : "
+//+ onGorulenOkumaSuresi.toFixed(2) + "sn");
 
-return;
-}
-}
+//return;
+//}
+//}
 
 var surumNotuDetayId;
 
